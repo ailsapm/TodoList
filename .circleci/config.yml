@@ -23,7 +23,7 @@ jobs:
     working_directory: ~/todo_list
     docker: 
       - image: cimg/ruby:3.1.0
-      steps:
+    steps:
       - checkout
       - setup-remote-docker
       - run:
